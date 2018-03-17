@@ -1,3 +1,9 @@
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -72,4 +78,30 @@ header {
 .story,
 .news-bites {
   border: solid 1px black;
+}
+
+.imagecontainer {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  height: 300px;
+}
+
+.main {
+  background-image: url("img-story-main.png");
+  font-size: 40px;
+}
+
+.earth {
+  background-image: url("img-story-2.png");
+}
+
+.research {
+  background-image: url("img-story-3.png");
+}
+
+.cats {
+  background-image: url("img-story-1.png");
 }
