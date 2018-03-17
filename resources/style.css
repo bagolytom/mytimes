@@ -93,6 +93,9 @@ header {
   font-size: 30px;
   color: white;
   height: 300px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .main {
